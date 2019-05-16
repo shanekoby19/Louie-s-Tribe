@@ -1,0 +1,54 @@
+extends layout.pug
+
+block content
+  div.container.text-center
+    div.row
+      div.mx-auto
+        h1 Louie's Tribe
+    div.row.text-center.mt-3
+      div.col-sm-4
+        if name
+          a(href='/login')
+            button.btn.btn-dark Log In
+      div.col-sm-4
+        a(href='/signup')
+          button.btn.btn-dark Sign Up
+      div.col-sm-4
+        a(href='/sales')
+          button.btn.btn-dark Video
+  div.container-fluid.mt-5
+    div.row
+      div.col-md-3.ml-4
+        h2.ml-n3.text-center.mb-4 My Plays
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON    
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON    
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON    
+        div.row
+          p NBA: Cavs -4.5 over the Knicks -- WON
+      div.col-md-5.align-self-center.ml-3.mr-3
+        h2.text-center Sign up today to receive this exclusive video.
+          div.row.border
+            div.col-md-4.align-self-center.mx-auto
+              img.locked(src='../static/img/locked.svg')
+      div.col-md-3
+        h2.text-center.mb-4 Reviews
+        div.row.pl-2
+            p I have been a client of Louie's now for the last three months. He has given me great investment advice and he is always quick to answer any of my questions.
+            p -Shane Kobylecky

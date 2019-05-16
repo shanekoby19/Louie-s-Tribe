@@ -1,0 +1,13 @@
+.locked {
+  height: 100px;
+  width: 100px;
+}
+
+.border {
+  border: 1px solid black;
+  height: 50vh;
+}
+
+.error_Container {
+  height: 100vh;
+}

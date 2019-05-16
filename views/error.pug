@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div.container
+    div.row.align-items-center.fullscreen
+      div.col.mx-auto.text-center
+        img.error_Image(src='../static/img/error.svg' alt='Error Image')
+        h2 Error: #{error_Message}
+        p Status: #{error_Status}
+        a(href='/signup')
+          button.btn.btn-dark Sign Up
+        a(href='/login')
+          button.btn.btn-dark.ml-3 Login
